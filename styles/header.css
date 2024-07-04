@@ -1,0 +1,87 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    column-gap: 20px;
+}
+
+.head-logo {
+    width: 118px;
+    height: auto;
+    margin-right: 30px;
+}
+ .leftside-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .leftside-head input {
+    width: 300px;
+ }
+ .search__input__left::-moz-placeholder {
+	background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>');
+	background-repeat: no-repeat;
+	background-position: left;
+	background-position: 5px center;
+	padding-left: 30px;
+}
+
+.search__input__left::placeholder {
+	background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>');
+	background-repeat: no-repeat;
+	background-position: left;
+	background-position: 5px center;
+	padding-left: 30px;
+}
+
+.search__input__right {
+	border: 1px solid #ccc;
+	padding: 5px 10px;
+	height: 42px;
+	border: 1px 0px 0px 0px;
+}
+
+.search__input__right::-moz-placeholder {
+	color: #0f0f0f;
+}
+
+.search__input__right::placeholder {
+	color: #0f0f0f;
+}
+
+.search__svg {
+	cursor: pointer;
+}
+
+.search__svg:hover {
+	opacity: 80%;
+}
+#search_input-left {
+	width: 300px;
+	padding-left: 40px;
+}
+
+.search__input__left {
+	border: 1px solid #ccc;
+	padding: 5px 10px;
+	height: 42px;
+	border-radius: 8px 0px 0px 8px;
+	border: 1px 0px 0px 0px;
+	color: #333;
+}
+.search__input__right {
+	border: 1px solid #ccc;
+	padding: 5px 10px;
+	height: 42px;
+	border: 1px 0px 0px 0px;
+}
+.rightside-head {
+	display: flex;
+	column-gap: 20px;
+}
+.rightside-head a {
+	display: flex;
+	align-items: center;
+}
